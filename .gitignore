@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model checkpoints and weights
+checkpoints/
+models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# DeepSpeed
+ds_logs/
+*.ds_checkpoint/
+output/
+
+# Weights & Biases
+wandb/
+
+# Data
+data/
+*.parquet
+*.jsonl
+*.csv
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# SLURM
+slurm-*.out
