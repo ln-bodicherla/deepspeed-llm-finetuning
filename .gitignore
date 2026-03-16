@@ -1,63 +1,79 @@
-# Python
+
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-*.egg-info/
-dist/
-build/
-eggs/
-*.egg
-
-# Virtual environments
-venv/
-.venv/
-env/
-
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-*~
-
-# OS
+!.env.example
+!.env.sample
+.build/
 .DS_Store
-Thumbs.db
-
-# Model checkpoints and weights
-checkpoints/
-models/
+.eggs/
+.env
+.env.*
+.env.local
+.idea/
+.ipynb_checkpoints/
+.swiftpm/
+.venv/
+.vscode/
+*.app
 *.bin
-*.safetensors
+*.ckpt
+*.csv
+*.db
+*.db-shm
+*.db-wal
+*.ds_checkpoint/
+*.egg
+*.egg-info/
+*.ipa
+*.jsonl
+*.key
+*.log
+*.parquet
+*.pem
 *.pt
 *.pth
-*.ckpt
-
-# DeepSpeed
-ds_logs/
-*.ds_checkpoint/
-output/
-
-# Weights & Biases
-wandb/
-
+*.py[cod]
+*.pyc
+*.safetensors
+*.secret
+*.so
+*.sqlite
+*.sqlite3
+*.swo
+*.swp
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*~
+*$py.class
+# Build
 # Data
-data/
-*.parquet
-*.jsonl
-*.csv
-
+# Databases
+# DeepSpeed
+# Dependencies
 # Environment
-.env
-.env.local
-
-# Logs
-*.log
-logs/
-
+# IDE
 # Jupyter
-.ipynb_checkpoints/
-
+# Logs
+# Model checkpoints and weights
+# OS
+# Python
+# Secrets
 # SLURM
+# Virtual environments
+# Weights & Biases
+build/
+checkpoints/
+credentials*
+data/
+DerivedData/
+dist/
+ds_logs/
+eggs/
+env/
+logs/
+models/
+node_modules/
+output/
 slurm-*.out
+Thumbs.db
+venv/
+wandb/
