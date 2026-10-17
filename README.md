@@ -41,12 +41,12 @@ This project explores full-parameter fine-tuning as an alternative to parameter-
 | Parameters Trained | All (~7B) | ~0.1% (~10M) |
 | GPU Requirements | 4-8x A100 80GB | 1x RTX 4090 24GB |
 | Training Time | 8-24 hours | 2-6 hours |
-| Model Quality | Highest possible | ~95-98% of full FT |
+| Model Quality | Reference point | Often close to full FT; task-dependent |
 | Memory per GPU | ~20-40 GB (ZeRO-3) | ~12-18 GB |
 | Infrastructure Cost | High | Low |
 | Catastrophic Forgetting Risk | Higher | Lower |
 
-**Decision**: QLoRA was chosen for the production deployment due to single-GPU accessibility, faster iteration cycles, and comparable performance on the target domain tasks (95%+ of full fine-tuning quality).
+**Decision**: QLoRA (see the companion `llm-finetuning-qlora` project) was chosen as the primary approach for single-GPU accessibility and faster iteration. No head-to-head quality comparison between the two has been run in these repositories; the figures above are rough planning estimates, not measurements.
 
 ## Project Structure
 
